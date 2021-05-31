@@ -1,5 +1,5 @@
 {
-  "name": "chollo",
+  "name": "log",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -11,18 +11,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/EnzoGGA/CHOLLOBOT.git"
+    "url": "git+https://github.com/LogCruzBOT/LOGBOT.git"
   },
   "keywords": [
     "WhatsappBot",
     "WhatsApp"
   ],
-  "author": "CHØLLØ BRABØ",
+  "author": "LOG BRABO",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/EnzoGGA/CHOLLOBOT/issues"
+    "url": "https://github.com/LogCruzBOT/LOGBOT.git/issues"
   },
-  "homepage": "https://github.com/EnzoGGA/CHOLLOBOT#readme",
+  "homepage": "https://github.com/LogCruzBOT#readme",
   "dependencies": {
     "@adiwajshing/baileys": "^3.5.0",
     "axios": "^0.21.1",

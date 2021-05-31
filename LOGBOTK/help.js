@@ -1,14 +1,14 @@
 function starth(){
-const speed = require('performance-now');
-const gplink = "https://chat.whatsapp.com/GuS9NThAyFw6aXsjQfHcco"
-const melink = "https://wa.me/553898456180"
-const cjlink = `http://api.whatsapp.com/send?phone=994402148484&text=.help`
-const botlink = `https://api.whatsapp.com/send?phone=17192245473&text=.menu`
-const loglink = `http://api.whatsapp.com/send?phone=14099086308&text=.help`
-const hrnlink = `http://wa.me/5511986937027?text=.menu`
-const boelink = `https://api.whatsapp.com/send?phone=12702787538&text=.menu`
-var timestamp = speed();
-var vel = speed() - timestamp
+  const speed = require('performance-now');
+  const gplink = "https://chat.whatsapp.com/GuS9NThAyFw6aXsjQfHcco"
+  const melink = "https://wa.me/553898456180"
+  const cjlink = `http://api.whatsapp.com/send?phone=994402148484&text=.help`
+  const botlink = `https://api.whatsapp.com/send?phone=17192245473&text=.menu`
+  const loglink = `http://api.whatsapp.com/send?phone=14099086308&text=.help`
+  const hrnlink = `ttps://api.whatsapp.com/send?phone=5511986937027&text=.menu`
+  const boelink = `https://api.whatsapp.com/send?phone=12702787538&text=.menu`
+  var timestamp = speed();
+  var vel = speed() - timestamp
 
 const help = (prefix) => {
 	return`╔═════════════════════════
