@@ -1,35 +1,21 @@
 function starth(){
-  const speed = require('performance-now');
-  const gplink = "https://chat.whatsapp.com/GuS9NThAyFw6aXsjQfHcco"
-  const melink = "https://wa.me/553898456180"
-  const cjlink = `http://api.whatsapp.com/send?phone=994402148484&text=.help`
-  const botlink = `https://api.whatsapp.com/send?phone=17192245473&text=.menu`
-  const loglink = `http://api.whatsapp.com/send?phone=14099086308&text=.help`
-  const hrnlink = `ttps://api.whatsapp.com/send?phone=5511986937027&text=.menu`
-  const boelink = `https://api.whatsapp.com/send?phone=12702787538&text=.menu`
-  var timestamp = speed();
-  var vel = speed() - timestamp
+const speed = require('performance-now');
+const melink = "wa.me/553898456180"
+var timestamp = speed();
+var vel = speed() - timestamp
 
 const help = (prefix) => {
 	return`╔═════════════════════════
-         ║        LOG BOT'S 
-         ╠═════════════════════════
+║       🤡LOG BOT🤡
+╠═════════════════════════
 
-  
-GRUPO OFC
-   
+  • ────── 𖦜 ────── •
+         LOG BOT
+   • ────── 𖦜 ────── •
 
-*_ENTRE NO GRUPO OFICIAL DO BOT_*:
-
-${gplink}
-ou
-https://chat.whatsapp.com/GuS9NThAyFw6aXsjQfHcco
-
-*_SE QUISER SABER MAIS, ENVIE O COMANDO ${prefix}gp_*
-
-       
-INFO
-       
+       • ──── 𖦜 ──── •
+             INFO
+       • ──── 𖦜 ──── •
 
 ➭ Prefixo:  _*「${prefix} 」*_
 
@@ -46,9 +32,9 @@ _*「${vel.toFixed(4)} Segundos :)」*_
 *Número do criador: wa.me/553898456180*
 
 
-         
-FIGURINHAS
-         
+         • ──── 𖦜 ──── •
+            FIGURINHAS
+         • ──── 𖦜 ──── •
       
 ➭ Comando : *${prefix}fig* ou *${prefix}figurinha*
 ➭ útil em : converter imagem/gif/vídeo em adesivo
@@ -64,9 +50,9 @@ FIGURINHAS
 ➭ útil em : converter adesivo em imagem
 ➭ uso : adesivo de resposta
 
-       
-GRUPOS
-      
+       • ─── 𖦜 ─── •
+      COMANDOS GRUPOS
+       • ─── 𖦜 ─── •
 
 ➭ Comando : *${prefix}gp ou ${prefix}grupo*
 ➭ útil em : Convida você ao grupo oficial do bot
@@ -116,9 +102,9 @@ GRUPOS
 ➭ uso : *${prefix}demote e o @da pessoa*
 ➭ Nota : Você precisa ser admin e o bot também
 
-       
-DOWNLOADER
-      
+       • ──── 𖦜 ───── •
+       DOWNLOAD VIDEO/MSC E ETC
+       • ──── 𖦜 ───── •
        
 ➭ Comando : *${prefix}ytvideo* [_*OFF*_]
 ➭ útil em : Baixar videos do youtube
@@ -132,9 +118,9 @@ DOWNLOADER
 ➭ útil em : Trasforma videos em mp3 (musica)
 ➭ uso : comando em resposta a um video
 
-      
-AUDIO
-   
+       • ──── 𖦜 ───── •
+            AUDIO
+       • ──── 𖦜 ───── •
 
 ➭ Comando : *${prefix}audio*
 ➭ útil em : Trasforma texto em áudio
@@ -145,9 +131,9 @@ AUDIO
 ➭ útil em : Estourar o audio marcado
 ➭ uso : ${prefix}est marcando o audio q deseja estourar
 
-         
-DIVERSÃO
-      
+          • ──── 𖦜 ──── •
+             ALEATORIO
+          • ──── 𖦜 ──── •
         
 ➭ Comando : *${prefix}dado*
 ➭ útil em : Envia um número aleatorio de dado
@@ -169,51 +155,27 @@ DIVERSÃO
 ➭ Comando : *${prefix}sn*
 ➭ útil em : Responder perguntas de sim ou não
 ➭ uso : ${prefix}sn + pergunta que deseja fazer
-➭ Exemplo: ${prefix}sn BOT é o brabo?
+➭ Exemplo: ${prefix}sn o log é o mlr bot?
 
 ➭ Comando : *${prefix}lista*
 ➭ útil em : Listar os mais gados do grupo
 ➭ uso : basta enviar o comando 
         
-      
-OUTROS
-        
+        • ──── 𖦜 ──── •
+          IMPORTANTES
+        • ──── 𖦜 ──── •
       
 ➭ Comando : *${prefix}doar*
-➭ útil em : Doar quantias em dinheiro para ajudar o desenvolvimento do BOT
+➭ útil em : Doar quantias em dinheiro para ajudar o desenvolvimento do bot😊😁
 ➭ uso : basta enviar o comando
 
 ➭ Comando : *${prefix}bug*
 ➭ útil em : Envia report de bugs ao proprietário do bot
 ➭ uso : ${prefix}bug "Seu report aqui" 
- 
-➭ Comando : *${prefix}outros*
-➭ útil em : Envia o número dos meus companheiros 
-➭ uso : basta enviar o comando
-
-➭ Comando : *${prefix}loli1*
-➭ útil em : 😳
-➭ uso : basta enviar o comando 
-
-➭ Comando : *${prefix}del*
-➭ útil em : Deleta a mensagem enviada somente pelo bot
-➭ uso : Mensagem que deseja apagar em resposta
 
 ➭ Comando : *${prefix}tab*
-➭ útil em : Envia minha tabela para nomes
+➭ útil em : Envia minha tabela😎🤙
 ➭ uso : basta enviar o comando
-
-➭ Comando : *${prefix}lofi*
-➭ útil em : Envia a foto do lofi
-➭ uso : basta enviar o comando 
-
-➭ Comando : *${prefix}bomdia*
-➭ útil em : Da bom dia
-➭ uso : basta enviar o comando 
-
-➭ Comando : *${prefix}boatarde*
-➭ útil em : Da boa tarde 
-➭ uso : basta enviar o comando 
 
 ➭ Comando : *${prefix}info*
 ➭ útil em : Exibir informações sobre o bot
@@ -227,35 +189,16 @@ OUTROS
 ➭ útil em : Gerar um link whatsapp com seu número
 ➭ uso : basta enviar o comando 
 
-➭ Comando : *${prefix}ctt*
-➭ útil em : manda o contato do criador
-➭ uso : basta enviar o comando
-
 ➭ Comando : *${prefix}ler*
 ➭ útil em : pegar o texto da foto e lhe enviar
 ➭ uso : responder imagem ou enviar mensagem com legenda
 
-➭ Comando : *${prefix}creditos*
-➭ útil em : Envia os creditos dos criadores
-➭ uso : basta enviar o comando
 
 
 ╔════════════════════
-  BY: LOG KKKK 
-  eterno chollo!
+  CREDITOS: CHOLLO BOT
   
-  Estou off? Aqui vai o numero dos meus companheiros:
-  
-  𝐶𝐽 𝐵𝑂𝑇:
-  ${cjlink}
-  𝐿𝑂𝐺 𝐵𝑂𝑇:
-  ${loglink}
-  𝒦𝒶𝓀𝓊𝓏𝓊𝕭𝖔𝕿 𝐵𝑂𝑇:
-  ${boelink}
-  НЯИ‽ 𝐵𝑂𝑇:
-  ${hrnlink}
-  
-  Para ver todos envie ${prefix}outros
+  *TODO MEU CONHECIMENTO VEIO DELE,MERECE OS CREDITOS.*
   
 ╚════════════════════`
 }
@@ -264,3 +207,7 @@ exports.help = help
 
 }
 starth()
+
+
+
+
